@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>اتصل بنا - الحجر الماسي</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body>
+<header class="sticky"><div class="brand"><img src="assets/img/logo.png" alt="logo" class="logo"><h1>الحجر الماسي</h1></div></header>
+<main class="container">
+  <h2>اتصل بنا</h2>
+  <p>للحصول على عرض سعر، اتصل أو ارسل رسالة واتساب أو املأ النموذج أدناه.</p>
+
+  <!-- اضبط action إلى Formspree أو Netlify Forms -->
+  <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+    <label>الاسم</label><input name="name" required>
+    <label>الهاتف</label><input name="phone" required>
+    <label>الرسالة</label><textarea name="message" required></textarea>
+    <button type="submit">إرسال</button>
+  </form>
+
+  <div class="contact-actions">
+    <a class="btn" href="tel:0568820885">اتصل الآن</a>
+    <a class="btn" href="https://wa.me/971568820885?text=Hello%2C%20I%27d%20like%20a%20quote">واتساب</a>
+  </div>
+</main>
+<footer><div class="footer-inner">© الحجر الماسي</div></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
